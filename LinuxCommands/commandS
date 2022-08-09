@@ -29,5 +29,3 @@ Günlük kullanımda oldukça faydalı olan grep komutu ile belirli bir dosyadak
 Yanıt vermeyen programlar her işletim sisteminde can sıkıcı anlardandır. Eğer böyle bir durum varsa, kill komutunu kullanarak programı manuel olarak sonlandırabilirsiniz. Komut verildikten sonra uygulamaya belirli bir sinyal gönderilecek ve uygulamanın kendisini sonlandırması için talimat iletilecektir.
 
 https://www.ihs.com.tr/blog/en-populer-39-linux-komutu/
-
-
