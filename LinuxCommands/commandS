@@ -1,0 +1,33 @@
+1. cd Komutu
+cd komutu, Linux dosya sisteminde gezinmek için kullanılır. Var olan dizine bağlı olarak ya dizin adını ya da tam konumunu gerektirir. Örneğin, home/kullaniciadi/Belgeler dizini içerisindesiniz ve Belgeler’in alt dizini olan Fotoğraflar’a gitmek istiyorsunuz. Bu işlem için tek yapmanız gereken cd Fotoğraflar komutunu yazmaktır. Eğer daha hızlı konum değiştirmek istiyorsanız, bir üst dizine gitmek için ” cd.. ” ya da önceki dizine gitmek istiyorsanız ise ” cd- ” kullanabilirsiniz. Tek dikkat edilmesi gereken Linux’un büyük ve küçük harfe duyarlı olduğudur. Bu nedenle dizin adı olduğu gibi girilmelidir.
+
+2. pwd Komutu
+pwd komutu o an hangi dizinde olduğunuzu bulmak için kullanılır. Komut size net ve kesin bir konum bilgisi sağlar. Genellikle komut bölme işareti ( / ) ile başlar. Örneğin, tam bir komut olarak /home/kullaniciadi kullanılabilir.
+
+3. cat Komutu
+Linux’ta sık kullanılan komutlardan biri olan cat komutu, standart çıktıda yer alan bir dosyanın içeriğini görmek için kullanılır. cat komutunu çalıştırmak için önce “cat” daha sonra dosya adı ve uzantısı girilir. Örneğin, cat dosya.txt gibi.
+
+4. Is Komutu
+Is komutu, dizine ait içeriği görmek için kullanılır. O anda bulunulan mevcut dizin içeriğini görüntüleyen komut, başka dizin içeriklerini de gösterebilir. Örneğin, Belgeler’in içeriğini görmek istiyorsanız, Is / home/kullaniciadi/Belgeler komutunun girilmesi yeterlidir.
+
+5. mv Komutu
+mv komutu, ana kullanım dosyalarını taşımak ve dosyaları yeniden adlandırmak için kullanılır. cp komutuna oldukça benzeyen bu komutun kullanımı için önce mv sonra dosya adı ve hedef dizin girilmelidir. Örneğin, mv dosya.txt /home/kullaniciadi/Belgeler gibi.
+
+6. cp Komutu
+Varsayılan dizinden dosyaları kopyalamak için cp komutu kullanılır. Bunun için örneği cp ornek.jpg /home/kullaniciadi/Fotoğraflar komutu yazıldığında, “ornek.jpg” dosyasının Fotoğraflar dizininde bir kopya oluşturulur.
+
+7. touch Komutu
+Komut satırı üzerinde boş dosyalar oluşturmak için touch komutu kullanılır. Örneğin, Belgeler dizini altında Web adı ile bir HTML dosyası oluşturmak için touch /home/kullaniciadi/Belgeler/Web.html komutu girilir.
+
+8. locate Komutu
+Windows’ta yer alan search komutu gibi kullanılan locate komutu, dosya konumu bulmak için kullanılır. Eğer dosyada büyük ya da küçük harf duyarlılığı varsa komuttan sonra “-i” yazmanız halinde, dosya adını hatırlamasanız bile arama yapabilirsiniz. İki ya da daha fazla kelime içeren bir dosya aramak için yıldız işareti de kullanabilirsiniz. Örnek vermek gerekirse, locate -i vize*sonuc komutu ile vize ve sonuç kelimelerini içeren tüm dosyalar, büyük veya küçük karakter fark etmeksizin taranacaktır.
+
+9. grep Komutu
+Günlük kullanımda oldukça faydalı olan grep komutu ile belirli bir dosyadaki metin içerisinde arama yapılabilir. Örneğin, grep iş muhasebe.txt komutu, iş dosyasında muhasebe kelimesini aramak için kullanılabilir. Komut ile birlikte muhasebe kelimesini içeren tüm kelimeler tam olarak gösterilecektir.
+
+10. kill Komutu
+Yanıt vermeyen programlar her işletim sisteminde can sıkıcı anlardandır. Eğer böyle bir durum varsa, kill komutunu kullanarak programı manuel olarak sonlandırabilirsiniz. Komut verildikten sonra uygulamaya belirli bir sinyal gönderilecek ve uygulamanın kendisini sonlandırması için talimat iletilecektir.
+
+https://www.ihs.com.tr/blog/en-populer-39-linux-komutu/
+
+

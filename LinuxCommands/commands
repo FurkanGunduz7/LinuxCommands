@@ -1,0 +1,12 @@
+commands: $ sudo chown -R $USER:$USER /etc/opt
+
+kullanıcıyı gruba ekleme-çıkarma:
+sudo usermod -a -G yetkililer furkan
+sudo deluser furkan yetkililer
+
+SERVİS LİSTELEME:
+1-service --status all
+2-systemctl list-units --type=service
+
+
+
